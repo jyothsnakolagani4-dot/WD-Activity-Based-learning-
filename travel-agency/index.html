@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore destinations and holiday packages with WanderWay Travels.">
+  <title>WanderWay Travels | Find Your Next Escape</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home"><span class="brand-mark">W</span> WanderWay<span>Travels</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#destinations">Destinations</a>
+      <a href="#packages">Packages</a>
+      <a href="#itinerary">Itinerary</a>
+      <a href="#contact" class="nav-cta">Plan a Trip</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</p>
+        <h1>Collect moments.<br><span>Explore more.</span></h1>
+        <p class="hero-copy">From sunlit beaches to misty mountains, find a trip that feels like you.</p>
+        <a class="button button-light" href="#packages">Explore holiday packages <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-note"><span>✦</span> Thoughtful trips. Unforgettable stories.</div>
+    </section>
+
+    <section class="section destinations" id="destinations">
+      <div class="section-heading">
+        <div><p class="eyebrow">FIND YOUR SOMEWHERE</p><h2>Popular destinations</h2></div>
+        <p>Little escapes, big memories. Where will you go next?</p>
+      </div>
+      <div class="destination-grid">
+        <article class="destination-card goa">
+          <div class="destination-info"><span>BEACH & SUN</span><h3>Goa</h3><p>Golden shores and slow sunsets</p></div>
+        </article>
+        <article class="destination-card manali">
+          <div class="destination-info"><span>MOUNTAIN ESCAPE</span><h3>Manali</h3><p>Fresh air and Himalayan views</p></div>
+        </article>
+        <article class="destination-card kerala">
+          <div class="destination-info"><span>NATURE & CULTURE</span><h3>Kerala</h3><p>Backwaters, greenery and calm</p></div>
+        </article>
+        <article class="destination-card jaipur">
+          <div class="destination-info"><span>HERITAGE TRAIL</span><h3>Jaipur</h3><p>Colorful streets and royal history</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section packages" id="packages">
+      <div class="section-heading">
+        <div><p class="eyebrow">MADE FOR YOUR NEXT BREAK</p><h2>Holiday packages</h2></div>
+        <p>Sample packages to help you imagine your next adventure.</p>
+      </div>
+      <div class="package-grid">
+        <article class="package-card">
+          <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=900&q=80" alt="Tropical beach in Goa">
+          <div class="package-body"><div class="package-meta"><span>3 Days / 2 Nights</span><span>Beach escape</span></div><h3>Goa Getaway</h3><p>Beach time, local food and colorful evening markets.</p><div class="package-bottom"><p>From <strong>₹5,999</strong> <small>/ person</small></p><a href="#contact" aria-label="Ask about Goa Getaway">↗</a></div></div>
+        </article>
+        <article class="package-card">
+          <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=900&q=80" alt="Snowy Himalayan mountains">
+          <div class="package-body"><div class="package-meta"><span>5 Days / 4 Nights</span><span>Mountain trip</span></div><h3>Manali Moments</h3><p>Mountain scenery, cozy cafés and a little adventure.</p><div class="package-bottom"><p>From <strong>₹12,999</strong> <small>/ person</small></p><a href="#contact" aria-label="Ask about Manali Moments">↗</a></div></div>
+        </article>
+        <article class="package-card">
+          <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=900&q=80" alt="Green Kerala backwaters">
+          <div class="package-body"><div class="package-meta"><span>4 Days / 3 Nights</span><span>Nature retreat</span></div><h3>Kerala Calm</h3><p>Green landscapes, backwaters and peaceful stays.</p><div class="package-bottom"><p>From <strong>₹9,999</strong> <small>/ person</small></p><a href="#contact" aria-label="Ask about Kerala Calm">↗</a></div></div>
+        </article>
+      </div>
+      <p class="disclaimer">*Prices are illustrative sample values for this student project, not live travel offers.</p>
+    </section>
+
+    <section class="itinerary-section" id="itinerary">
+      <div class="itinerary-image" role="img" aria-label="Travel landscape"></div>
+      <div class="itinerary-content">
+        <p class="eyebrow">THE JOURNEY, MADE SIMPLE</p><h2>A little planning.<br>A lot of wonder.</h2>
+        <div class="step"><span>01</span><div><h3>Choose your destination</h3><p>Pick the place that matches your mood and travel style.</p></div></div>
+        <div class="step"><span>02</span><div><h3>Explore your itinerary</h3><p>Review a sample day-by-day plan and trip duration.</p></div></div>
+        <div class="step"><span>03</span><div><h3>Send an inquiry</h3><p>Share your travel preferences using the sample form below.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-copy"><p class="eyebrow">LET'S PLAN SOMETHING GOOD</p><h2>Your next adventure<br>is calling.</h2><p>Tell us a little about the trip you have in mind.</p></div>
+      <form class="inquiry-form" action="#" method="get">
+        <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name">
+        <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com">
+        <label for="destination">Destination of interest</label>
+        <select id="destination" name="destination"><option value="">Choose a destination</option><option>Goa</option><option>Manali</option><option>Kerala</option><option>Jaipur</option><option>Other</option></select>
+        <label for="message">Your travel idea</label><textarea id="message" name="message" rows="3" placeholder="When would you like to travel?"></textarea>
+        <button class="button button-dark" type="submit">Send inquiry <span aria-hidden="true">→</span></button>
+        <p class="form-note">Demo form only — no details are sent or stored.</p>
+      </form>
+    </section>
+  </main>
+  <footer><a class="brand footer-brand" href="#home">WanderWay<span>Travels</span></a><p>Made for curious hearts and open roads.</p><p>© 2026 WanderWay Travels · Student project</p></footer>
+</body>
+</html>
