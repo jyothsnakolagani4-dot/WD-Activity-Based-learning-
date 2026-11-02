@@ -1,21 +1,35 @@
-# WanderWay Travels — Travel Agency Website
+WanderWay Travels – Travel Agency Website
 
-## Overview
-A responsive travel agency landing page for exploring destinations and sample holiday packages.
+Project Description
 
-## Sections
-- Navigation and hero banner
-- Popular destinations: Goa, Manali, Kerala, and Jaipur
-- Holiday package cards with duration and sample prices
-- Three-step itinerary guide
+WanderWay Travels is a simple travel agency website developed using HTML and CSS.
+
+Features
+
+- Home section
+- Navigation menu
+- Popular travel destinations
+- Travel packages with prices and duration
+- Goa trip itinerary
 - Travel inquiry form
-- Footer
+- Footer section
 
-## Technologies
-HTML5 and CSS3 only. CSS Grid, Flexbox, media queries, transitions, and hover effects are used.
+Technologies Used
 
-## Run locally
-Open `index.html` in a browser. Keep `style.css` in the same folder.
+- HTML for website structure
+- CSS for colors, layout and styling
 
-## Important
-This is a student front-end prototype. Package prices are illustrative. The inquiry form does not send or store data. Images are loaded from Unsplash and need an internet connection.
+Project Files
+
+- index.html
+- style.css
+
+How to Run
+
+1. Open the travel-agency folder.
+2. Open index.html in a web browser.
+3. The website will be displayed.
+
+Note
+
+This is a beginner-level educational project. The contact form is for demonstration purposes only.
