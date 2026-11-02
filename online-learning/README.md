@@ -1,22 +1,30 @@
-# SkillSpring — Online Learning Platform
+#SkillSpring - Online Learning Platform
 
-## Overview
-A responsive e-learning landing page concept for learners exploring beginner-friendly technology courses.
+##Project Description
 
-## Sections
-- Hero and navigation
-- Platform statistics
-- Course cards for Python, HTML/CSS, and AI
-- Course category cards
-- Mentor profiles
-- Sample course progress indicators
-- Call-to-action section
+SkillSpring is a simple online learning website developed using HTML and CSS.
 
-## Technologies
-HTML5 and CSS3 only, including Grid, Flexbox, responsive media queries, hover transitions, and styled progress bars.
+#Features
 
-## Run locally
-Open `index.html` in a browser. Keep `style.css` in the same folder.
+- Home section
+- Course details and categories
+- Instructor information
+- Learning objectives
+- Course enrollment buttons
+- Learning progress indicators
+- Contact form
 
-## Important
-This is a front-end demonstration. Course links are navigation examples; enrollment and learner progress are not connected to a backend. Some images are loaded from Unsplash and need an internet connection.
+#Technologies Used
+
+- HTML
+- CSS
+
+#Project Files
+
+- index.html
+- style.css
+- README.md
+
+#Purpose
+
+This project is developed as part of the Web Development Activity Based Learning assignment.
