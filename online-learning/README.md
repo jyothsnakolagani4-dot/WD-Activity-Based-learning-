@@ -1,10 +1,10 @@
-#SkillSpring - Online Learning Platform
+SkillSpring - Online Learning Platform
 
-##Project Description
+Project Description
 
 SkillSpring is a simple online learning website developed using HTML and CSS.
 
-#Features
+Features
 
 - Home section
 - Course details and categories
@@ -14,17 +14,17 @@ SkillSpring is a simple online learning website developed using HTML and CSS.
 - Learning progress indicators
 - Contact form
 
-#Technologies Used
+Technologies Used
 
 - HTML
 - CSS
 
-#Project Files
+Project Files
 
 - index.html
 - style.css
 - README.md
 
-#Purpose
+Purpose
 
 This project is developed as part of the Web Development Activity Based Learning assignment.
