@@ -4,7 +4,6 @@ body {
     background-color: #f4f3fa;
 }
 
-/* Header */
 
 header {
     background-color: #49377c;
@@ -13,7 +12,7 @@ header {
     padding: 25px;
 }
 
-/* Navigation */
+
 
 nav {
     background-color: #302451;
@@ -27,7 +26,6 @@ nav a {
     margin: 12px;
 }
 
-/* Sections */
 
 section {
     padding: 30px;
@@ -38,7 +36,7 @@ h2 {
     color: #49377c;
 }
 
-/* Course Cards */
+
 
 .course-container {
     display: flex;
@@ -55,7 +53,7 @@ h2 {
     box-shadow: 2px 2px 8px gray;
 }
 
-/* Enroll Button */
+
 
 .card a {
     display: inline-block;
@@ -66,7 +64,7 @@ h2 {
     border-radius: 5px;
 }
 
-/* Instructors */
+
 
 .instructor {
     background-color: white;
@@ -83,7 +81,7 @@ progress {
     height: 20px;
 }
 
-/* Contact Form */
+
 
 form {
     background-color: white;
@@ -112,7 +110,7 @@ button {
     margin-top: 15px;
 }
 
-/* Footer */
+
 
 footer {
     background-color: #302451;
